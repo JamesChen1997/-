@@ -1,0 +1,30 @@
+/* pages/movieDetail/movieDetail.wxss */
+.movieDetailWrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name{
+  display: flex;
+  justify-content:space-around;
+  font-size: 40rpx;
+  font-weight: bolder;
+}
+button{
+  background-color: green;
+  margin-top: 30rpx;
+  width: 70%;
+  color: white;
+}
+.tp{
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  height:700rpx;
+  margin: 20rpx 130rpx;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

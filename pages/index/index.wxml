@@ -1,0 +1,7 @@
+<!--pages/index.wxml-->
+<view class="wrap">
+    <image src="{{userInfo.avatarUrl}}" class="avater"></image>
+    <text class="username">{{userInfo.nickName?userInfo.nickName:"欢迎使用影视留声"}} </text>
+    <button style="display:{{isShow?'block':'none'}}" open-type="getUserInfo" bindgetuserinfo="handelUserInfo" >授权登陆</button>
+    <text  style="display:{{isShow?'block':'none'}}" >温馨提示：使用前请先授权登陆</text>
+</view>

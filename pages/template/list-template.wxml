@@ -1,0 +1,20 @@
+<!--pages/template/list-template.wxml-->
+<template name="listTemp">
+     <view class="tempWrap">
+          <view class="raw1" >
+             <image src="{{avatar}}"></image>
+             <text>2020/08/28</text>
+          </view>
+          <text class="title">{{title}}</text>
+          <image src="{{detail_img}}" class="bigphoto"></image>
+          <text class="disc">
+          {{detail_content}}
+          </text>
+          <view>
+           <image src="/images/icon/star.png" class="start"></image>
+           <text class="number">100</text>
+            <image src="/images/icon/view.png" class="view"></image>
+           <text class="number">100</text>
+          </view>
+     </view>
+</template>

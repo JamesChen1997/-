@@ -1,0 +1,51 @@
+/* pages/detail/detail.wxss */
+.detailWrap{
+  display: flex;
+  flex-direction: column;
+}
+.detailPic{
+    width:100%;
+    height:450rpx;
+}
+.avatar{
+  width:60rpx;
+  height:60rpx;
+  vertical-align: middle;
+  margin: 10rpx;
+}
+.text{
+  margin: 10rpx;
+}
+.name{
+  margin: 15rpx;
+  font-weight: bolder;
+}
+.collection{
+  width:90rpx;
+  height:90rpx;
+  margin-left: 500rpx;
+}
+.share{
+  width:90rpx;
+  height:90rpx;
+  margin-left: 15rpx;
+}
+.line{
+  width: 100%;
+  height:2rpx;
+  background-color:gray;
+  margin-top: 5rpx;
+  position: absolute;
+  top:50% ;
+  z-index: -1;
+}
+.collection_share_wrap{
+  position: relative;
+}
+.music{
+  width: 80rpx;
+  height: 80rpx;
+  position: absolute;
+  left:350rpx;
+  top:200rpx
+}

@@ -1,0 +1,31 @@
+/* pages/index.wxss */
+.wrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.avater{
+    width: 150rpx;
+    height: 150rpx;
+    border-radius: 50%;
+    margin: 100rpx 0;
+}
+.username{
+  font-size: 40rpx;
+  font-weight: bolder;
+}
+.stare{
+  width: 250rpx;
+  height: 50rpx;
+  border:1rpx black solid;
+  text-align: center;
+  line-height: 50rpx;
+}
+page{
+  background-color:#8ed185;
+}
+button{
+  width:150rpx;
+  height:80rpx;
+  background-color: #999;
+}
